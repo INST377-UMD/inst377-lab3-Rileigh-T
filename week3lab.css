@@ -1,0 +1,102 @@
+
+body {
+    background-color: #c8d8e4;
+    font-family:'Times New Roman', Times, serif
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#bar {
+    text-align: center;
+    color: white;
+    background-color: #2b6777;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+h1 {
+    color: #dad6da;
+}
+
+#main-nav {
+    background-color:darkcyan;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-nav ul {
+    padding: 0;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    position: relative;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+#main-nav ul li:hover {
+    background-color: #1a2d6b;
+    color: white;
+}
+
+#main-nav ul li a:hover {
+    color: #b4d5ea;
+}
+
+.main-content {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+    overflow: auto;
+}
+
+.content {
+    width: 60%;
+    float: left;
+    margin: 0;
+}
+
+.content-box {
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+#sidebar {
+    text-align: center;
+    background-color: rgb(5, 45, 108);
+    float: right;
+    width: 30%;
+    margin-right: 10px;
+    border: 2px solid black;
+    transition: background-color 0.3s;
+    color:#dad6da
+}
+
+#sidebar:hover {
+    background-color: #6da3ee;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    transition: width 0.3s;
+}
+
+input[type="text"]:focus {
+    width: 300px;
+}
